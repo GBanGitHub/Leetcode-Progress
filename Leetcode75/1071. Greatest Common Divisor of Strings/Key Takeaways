@@ -1,0 +1,18 @@
+Easy (but this should be a medium at least ong)
+Topics: Math, Strings, Recursive
+
+Key Takeaways
+- By using the communicative property in Math. we can check to see if str1 and str2 are equal based off. If not you can just return an empty string
+A = S^n
+B = S^m
+(n and m being lengths of strings)
+A + B  =  S ^(n+m) = B + A
+- If they are equal based off ^^^ then you can return str1 (or str2 cause they're the same)
+- If they are not equal you can recursively check for gcd after checking for str1 (or str2) first. 
+        - In python, "str1[len(str2):]" assuming that all conditions above are met ^^^ then str2 becomes removed from str1
+        - self.gcdOfStrings would then recursively follow the statement above ^^^
+- Make sure to create the same statement above ^^^ to meet if the conditions are reversed (str2 > str1)
+
+Complexity
+Time Complexity: O(n)
+Space Complexity: O(n)

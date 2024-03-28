@@ -1,0 +1,6 @@
+Key Takeaways
+- Use two pointers to append the strings 
+- Use an alternating merge to append the string into one
+- Any remaining characters will be extend on to the list
+Complexity
+-  Time complexity: O(n)

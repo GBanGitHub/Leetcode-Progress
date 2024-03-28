@@ -2,7 +2,7 @@ Easy (but this should be a medium at least ong)
 Topics: Math, Strings, Recursive
 
 Key Takeaways
-- By using the communicative property in Math. we can check to see if str1 and str2 are equal based off. If not you can just return an empty string
+- By using the communicative property. we can check to see if str1 and str2 are equal based off. If not you can just return an empty string
 A = S^n
 B = S^m
 (n and m being lengths of strings)

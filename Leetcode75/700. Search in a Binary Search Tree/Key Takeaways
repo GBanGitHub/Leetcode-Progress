@@ -11,3 +11,4 @@ Complexity
 Time Complexity: O(h) where h is the height of the tree.
     - However, if the tree is balanced it becomes O(log n)
     - If the tree is skewed/unbalanced then we get O(n)
+Space Complexity: O(1)

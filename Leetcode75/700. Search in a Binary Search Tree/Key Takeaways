@@ -1,1 +1,11 @@
+Easy
+Topics: BST, Trees, Binary Trees
 
+Key Takeaways
+-Remember the important property of BST which is
+    - Each node in the tree has a key which is greater than all the keys in the left subtree and smaller than those in the right subtree
+-This problem can use a iterative approach in order to improve efficiency
+    - Also Python does not support tail recursion optimization which can cause problems with memory usage
+
+Complexity
+Time Complexity

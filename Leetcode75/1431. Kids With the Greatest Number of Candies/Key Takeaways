@@ -1,1 +1,13 @@
+Easy
+Topics: Array
+
+Key Takeaways
+- Checking through the array and subtracting the extraCandies from the maximum will be more efficient
+    - This logic is allowed because we are only comparing the max value of the array rather than each individual candy piece.
+      If we were to compare each piece of candy then the code block becomes much bigger and more inefficient
+- Using the logic above ^^^ the code will be easier to read and maintain
+
+Complexity
+Time Complexity: O(n)
+Space Complexity: O(1)
 

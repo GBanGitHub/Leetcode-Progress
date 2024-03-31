@@ -1,1 +1,9 @@
+Easy
+Topics: Two Pointers, String, Dynamic Programming (could be but i chose not to for this solution)
 
+Key Takeaways
+- Given two strings (s and t for example)  you have to check if they are subsequent of each other (check if s is subsequent of t for example)
+- For example
+    - The string s is abc
+    - The string b is afbgc
+    - The string s is subsequent because if we get rid of the letters f and g, the string b becomes equal to string s as abc = abc

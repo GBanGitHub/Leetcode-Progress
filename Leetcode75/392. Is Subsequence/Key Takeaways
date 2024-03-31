@@ -7,3 +7,13 @@ Key Takeaways
     - The string s is abc
     - The string b is afbgc
     - The string s is subsequent because if we get rid of the letters f and g, the string b becomes equal to string s as abc = abc
+- There are multiple ways to approach this problem such as two pointer and dynamic programming (I went with two pointers cause dynamic programming hard :C)
+- For the solution I went with an iterative approach with each string having an index
+    - The longer string t will traverse string s and if a value matches, the index for string s is moved to the right
+    - At the end, check if the index is the same length as string s, if so then they are equal and proves that string s and t are subsequent
+
+Complexity
+Time Complexity: O(len(t))
+    - The Time complexity is proportional to the length of string t
+Space Complexity: O(1)
+    - Because constant space is used

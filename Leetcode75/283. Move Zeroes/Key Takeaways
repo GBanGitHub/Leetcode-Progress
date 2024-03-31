@@ -1,1 +1,12 @@
+Easy
+Topics: Array, Two Pointers
 
+Key Takeaways
+- Create an anchor to adhere to the problems rule of not creating a copy of the array.
+- Using an anchor from above ^^^ we can simply swap the values that are not equal to zero and move down the array until the end is reached
+
+Complexity
+Time Complexity: O(n)
+    - This is because the explorer pointer will not visit the same place twice.
+Space Complexity: O(1)
+    - Because all of the operations are made in one place

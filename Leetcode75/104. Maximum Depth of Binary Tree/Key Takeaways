@@ -1,1 +1,12 @@
+Easy
+Topics: Binary Tree, DFS
 
+Key Takeaways
+- We can use DFS to find the deepest 
+- You can use a helper function to add each layer that was searched using DFS
+
+Complexity
+Time Complexity: O(n)
+    - This is because of the DFS
+Space Complexity: O(n)
+    - For the recursive function that helps adds each layer of DFS

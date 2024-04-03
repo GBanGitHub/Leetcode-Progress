@@ -1,1 +1,13 @@
+Medium
+Topics: Two pointer, String
 
+Key Takeaways
+- Using a two pointer approach
+- Once the words are swapped we can add an increment to the pointer
+- Using return ' ' adds a space to the reversed list
+
+Complexity
+Time Complexity: O(n)
+- This is because of the length of the string
+Space Complexity: O(n)
+- Also the length of the string

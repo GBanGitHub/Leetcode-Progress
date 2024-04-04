@@ -1,1 +1,14 @@
+Easy
+Topics: Array, Greedy
 
+Key Takeaways
+- This solution requires a greedy method
+- We can check whether n is true or false at the end of the function to increase efficiency
+- Create an if else statement for each scenario possible as there are only two possibilities
+    - The two possibilities being whether it fits or not
+
+Complexity
+Time Complexity: O(n)
+- This depends on the length of the flowerbed
+Space Complexity: O(1)
+- This is because there is nothing stored 

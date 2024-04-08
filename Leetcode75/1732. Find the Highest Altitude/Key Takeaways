@@ -1,1 +1,12 @@
+Easy
+Topics: Array
 
+Key Takeaways
+- Find the highest altitude the biker has reached not the net highest gain
+- Use an array to traverse through the gain array
+- Update the array for every iteration because we are not trying to find the net highest gain
+
+Complexity
+Time Complexity: O(n)
+Space Complexity: O(1)
+    - This is because we are not storing anything

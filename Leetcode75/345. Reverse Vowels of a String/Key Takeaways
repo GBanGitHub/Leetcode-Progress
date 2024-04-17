@@ -2,4 +2,8 @@ Easy
 Topics: Two Pointer, String
 
 Key Takeaways
-- 
+- Using two pointers we can efficiently swap the vowels only if they match the vowel prerequisite
+
+Complexity
+Time Complexity: O(n)
+Space Complexity: O(n)

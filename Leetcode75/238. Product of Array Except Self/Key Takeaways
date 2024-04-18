@@ -1,1 +1,5 @@
+Medium
+Topics: Array, Prefix Sum
 
+Key Takeaways
+- We can create two arrays, prefix and suffix, to traverse the array above and then split it into two

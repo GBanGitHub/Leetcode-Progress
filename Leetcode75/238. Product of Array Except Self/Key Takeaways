@@ -3,3 +3,11 @@ Topics: Array, Prefix Sum
 
 Key Takeaways
 - We can create two arrays, prefix and suffix, to traverse the array above and then split it into two
+- The first loop will do the reverse multiplication and with the answer will move towards the second loop
+- The second loop will stray away from nums[j] in order to not count it towards the final answer.
+
+
+Complexity
+- Time Complexity: O(n)
+- Space Complexity: O(n)
+    - If there is extra space then it would be O(1)
